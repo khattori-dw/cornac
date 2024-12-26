@@ -32,6 +32,8 @@ from setuptools import Command, Extension, find_packages, setup
 
 INSTALL_REQUIRES = ["numpy<2.0.0", "scipy<=1.13.1", "tqdm", "powerlaw"]
 
+import numpy
+
 try:
     import numpy as np
     import scipy
